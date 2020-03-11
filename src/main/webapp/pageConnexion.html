@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AFIL</title>
+	<link href="pageConnexion.css" rel="stylesheet"> 
+	<meta charset="UTF-8"/>
+</head>
+<body>
+	<h1> Se connecter </h1>
+	<form id="username"/>
+	<table>
+	<tr><td><label for="identifiant"> Identifiant : <span class="requis"></span></label></td>
+	<td><input type="text" id="username" placeholder ="identifiant"/></td></tr>
+<!--	<span class="erreur">${form.erreurs['email']}</span> -->
+	<br/>
+	<tr><td><label for="mdp"> Mot de passe : <span class="requis"></span></label></td>
+	<td><input type="password" id="passwd" placeholder="mot de passe" required/></td></tr>
+	<span id="msgPasswd"></span>
+<!--	<span class="erreur">${form.erreurs['motdepasse']}</span> -->
+	<br/>
+</table>
+	<input type="button" id="submit" value="Se connecter"/>
+</form>
+<footer> 
+	<p> Veuillez vous déconnecter et fermer votre navigateur lorsque vous avez fini d'accéder aux services authentifiés. © 2020 </p>
+</footer>
+<script src="pageConnexion.js"></script>
+</body>
+</html>
